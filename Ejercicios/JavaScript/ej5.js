@@ -1,0 +1,10 @@
+var nombre = "Mauricio";
+var apellido = "Luna";
+var edad = "30";
+var fechaNacimiento = "15/02/90";
+var direccion = "Padilla 876";
+console.log(nombre);
+console.log(apellido);
+console.log(edad);
+console.log(fechaNacimiento);
+console.log(direccion);
