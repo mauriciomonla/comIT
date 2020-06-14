@@ -10,4 +10,14 @@ EXTENSIONES NODE:
 
 
 ARCHIVOS JS
-index.js
+index.js: archivo principal de toda la aplicacion
+database.js: archivo principal para conectar con una base de datos
+
+
+CARPETAS
+*config: almacena distintos archivos. podria ir el conector a la base. Podria poner la configuracion de autenticacion.
+*helpers: funciones que el servidor puede utilizar, funciones reutilizables desdes cuelquier parte, por ejemplo, generar un numero aleatorio
+*models: definiremos como van a lucir los datos que queremos almacenar dentro de mongo. Los en nuestro caso, los deatos de las canchas y de las reservas. TAmben definimos el usuario con sus datos(nombre, correo, contraseña, etc)
+*public: insertar todos los archivos estaticos. Imagenes, fuentes, css y cualquier otro archivos que queramos enviar al servidor que se pinte en pantalla
+*routes: sirve para crear las URLs o las rutas de nuestro servidor
+*view: almacena todos los archivos que enviaremos al navegador, es decir todas las vistas HTML
