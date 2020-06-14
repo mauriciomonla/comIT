@@ -7,12 +7,11 @@ EXTENSIONES NODE:
 *passport: para autenticar el usuario
 *bcryptjs: modulo que aplica algoritmo a determinado string y convertirlo en un hash. Para que quede la contraseña quece difrada.
 *connect-flash: enviar mensajes entre las diferentes vistas. Por ejemplo, cuando el usuario se equivoque mandariamos un msj o cuando su contraseña no cumpla con los parametros mandariamos un mensaje (tu contraseña no es segura) o cualquier mensaje que querramos en realidad
-
+*nodemon: para reiniciar el server automaticamente tra hacer un cambio, para asi no tenesr que estar haciendolo mauelmente en cada cambio, -D=devDependencies
 
 ARCHIVOS JS
 index.js: archivo principal de toda la aplicacion
 database.js: archivo principal para conectar con una base de datos
-
 
 CARPETAS
 *config: almacena distintos archivos. podria ir el conector a la base. Podria poner la configuracion de autenticacion.
