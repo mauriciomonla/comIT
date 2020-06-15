@@ -6,6 +6,8 @@ const session = require("express-session");
 
 //--------------------------------Inicializaciones--------------------------------
 const app = express(); //express es una funcion, al ejecutarla retorna un objeto que sera almacenado en la constante app
+//Inicializo la coneccion con la base
+require("./database");
 
 //Setting: Aca configuraremos todo lo que necesitemos para el proyecto
 //configuro el puerto 3000 para mi servidor si es que no existe un puerto en mi maquina local
@@ -15,7 +17,7 @@ app.set("port", process.env.PORT || 3000);
 //Usaremos el metodo join de la libreria path, que permite unir directorios.
 //La constante de node __dirname devuelve la ruta de donde se esta ejecutando un determinado archivo. POr ejemplo,
 //si ejecuto index.js __dirname tendra el valor de /src y a esto lo concateno con views.
-app.set("views", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, 'views'));
 
 //Configuracion de handlebar
 //primer parametro nombre del archivo de nuestras vistas, le ondremos .hbs, aunque podriamos ponerle .html
@@ -28,7 +30,7 @@ app.engine(
   exphbs({
     defaultLayout: "main",
     layoutsDir: path.join(app.get("views"), "layouts"),
-    partialsDir: path.join(app.get("view"), "partials"),
+    partialsDir: path.join(app.get("views"), "partials"),
     extname: ".hbs",
   })
 );
@@ -54,10 +56,15 @@ app.use(
 //--------------------------------Variables globales--------------------------------
 
 //--------------------------------Routes--------------------------------
+app.use(require("./routes/index"));
+app.use(require("./routes/canchas"));
+app.use(require("./routes/users"));
 
 //--------------------------------Archivos estaticos--------------------------------
+//configuracion de archivos estaticos
+app.use(express.static(path.join(__dirname, "public")));
 
 //--------------------------------Server escuchando--------------------------------
 app.listen(app.get("port"), () => {
-  console.log("Server ecsuchando en el puerto ", app.get("port"));
+  console.log("Server escuchando en el puerto ", app.get("port"));
 });

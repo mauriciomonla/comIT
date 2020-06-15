@@ -20,3 +20,9 @@ CARPETAS
 *public: insertar todos los archivos estaticos. Imagenes, fuentes, css y cualquier otro archivos que queramos enviar al servidor que se pinte en pantalla
 *routes: sirve para crear las URLs o las rutas de nuestro servidor
 *view: almacena todos los archivos que enviaremos al navegador, es decir todas las vistas HTML
+
+
+En las vistas usamos
+bootstrap
+https://getbootstrap.com/
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
