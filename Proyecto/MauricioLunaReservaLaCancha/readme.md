@@ -93,7 +93,7 @@ _Para iniciar un proyecto node_
 npm init
 ```
 
-_Para instalar los modulos node_
+_Comandos utilizados para instalar los modulos node_
 
 ```
 npm i express
