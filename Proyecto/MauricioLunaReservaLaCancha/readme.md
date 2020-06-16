@@ -52,6 +52,8 @@ Con parri
 Sin parri
 ```
 
+_Tabien desde esta pantalla podes darle una calificacion a la cancha o basarte en estas opiniones para ayudarte a elegir la mejor_
+
 ### Reservar un cancha 🔩
 
 _Para poder reservar una cancha lo podes hacer desde el boton de navecgacion "Reservar" o tambien es posible hacerlo desde la lista de canchas disponibles._
