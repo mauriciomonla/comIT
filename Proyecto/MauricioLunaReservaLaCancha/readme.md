@@ -1,6 +1,6 @@
 # ReservaTuCancha
 
-_Vos encargate de dominar el esferico, que nosotros os encargamos de cuidarte la canchita_
+_Vos encargate de dominar el esferico, que nosotros nos encargamos de cuidarte la canchita_
 
 ## Descripcion 🚀
 
@@ -25,7 +25,7 @@ Esta aplicacion se hizo gracias al curso brindado por comunidad IT.
 
 ### Lista de canchas ⚙️
 
-_En esta seccion podes encontrar todas las canchas registradas en nuestro sitio. Cada cancha posee un nombre y una series de caracteristicas que la describen. Dichas caracteristias pueden ser aplcadas en nuestros filtros, para fecilitar la busqueda de la cancha que mas se acerque a tus necesidades_
+_En esta seccion podes encontrar todas las canchas registradas en nuestro sitio. Cada cancha posee un nombre y una series de caracteristicas que la describen. Dichas caracteristias pueden ser aplicadas en nuestros filtros, para facilitar la busqueda de la cancha que mas se acerque a tus necesidades_
 
 - Filtrar por Barrio
 
@@ -54,7 +54,7 @@ Sin parri
 
 ### Reservar un cancha 🔩
 
-_Para poder reservar una cancha lo podes hacer desde el boton de navecgacion "Rservar" o tambien es posible hacerlo desde la lista de canchas disponibles_
+_Para poder reservar una cancha lo podes hacer desde el boton de navecgacion "Reservar" o tambien es posible hacerlo desde la lista de canchas disponibles._
 _Una vez acá, te aparecerá un formulario para completar los datos de la reserva_
 
 - Nombre: Nombre del titular de la reserva
@@ -70,9 +70,9 @@ _Desde el boton "Ver reservas" podes consultar y gestionar las reservas que real
 
 - En esta seccion veras el listado de las reservas realizadas, desde acá podes eliminar la que desees
 
-### Eliminar una reserv## ⌨️
+### Eliminar una reserva ⌨️
 
-_A veces e complica para poder asistir a un juego, en este caso, podes eliminar la reserva que realizaste_
+_A veces se complica para poder asistir a un juego, en este caso, podes eliminar la reserva que realizaste_
 
 - Busca la reserva que queres descartar y dale click al boton ELIMINAR, esto borrara la reserva de tu lista de reservas
 
@@ -183,16 +183,16 @@ _Las herramientas que se utilizaron para crear el proyecto:_
 ## Wiki 📖
 
 Enlaces consultados
-[Colores](https://uigradients.com/#Dawn)
-[Imagenes](https://www.infobae.com/2015/11/13/1769482-los-15-mejores-estadios-futbol-del-mundo/)
-[stackoverflow](https://es.stackoverflow.com/questions/31753/enviar-un-json-por-post-con-javascript)
-[stackoverflow](https://stackoverflow.com/questions/41496571/)
-[bootstrap](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
-[bootstrap](https://getbootstrap.com/docs/4.0/components/dropdowns/#single-button-dropdowns)
-[bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/)
-[bootstrap](https://getbootstrap.com/docs/4.0/content/tables/#striped-rows)
-[bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/)
-[git](//gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
+- [Colores](https://uigradients.com/#Dawn)
+- [Imagenes](https://www.infobae.com/2015/11/13/1769482-los-15-mejores-estadios-futbol-del-mundo/)
+- [stackoverflow](https://es.stackoverflow.com/questions/31753/enviar-un-json-por-post-con-javascript)
+- [stackoverflow](https://stackoverflow.com/questions/41496571/)
+- [bootstrap](https://getbootstrap.com/docs/4.0/components/forms/#form-controls)
+- [bootstrap](https://getbootstrap.com/docs/4.0/components/dropdowns/#single-button-dropdowns)
+- [bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/)
+- [bootstrap](https://getbootstrap.com/docs/4.0/content/tables/#striped-rows)
+- [bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/)
+- [git](//gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
 
 ## Versionado 📌
 
@@ -203,7 +203,7 @@ Usamos [GIT](https://git-scm.com/) para el versionado. Para todas las versiones 
 - **Mauricio Luna** - _Trabajo Inicial_ - [mauriciomonla](https://github.com/mauriciomonla)
 - **Mauricio Luna** - _Documentación_ - [mauriciomonla](https://github.com/mauriciomonla)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
+También puedes mirar la lista del [contribuyentes COM IT](https://github.com/mauriciomonla/comit-node-web-apps) quíenes hicieron posible este proyecto.
 
 ## Licencia 📄
 
@@ -212,6 +212,6 @@ Este proyecto está bajo la Licencia "Sanjuaninos en el software"
 ## GRACIAS! 🎁
 
 - ComunidadIT 📢
-- Profe Richard te debo una cerveza 🍺 por tan grandioso laburo que hiciste con nosotros.
+- Profe [Ricahrd](https://github.com/rsegretin) te debo una cerveza 🍺 por el grandioso laburo de enseñanza que hiciste con nosotros.
 - A pesar de la cuarentena se pudo laburar 🤓.
 - Viva la patria!
