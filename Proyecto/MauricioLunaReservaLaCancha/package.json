@@ -4,11 +4,13 @@
   "description": "Aplicacion para la gestion de reserva de canchas de futbol",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "dev2": "nodemon src/public/js/testPost.js"
   },
   "author": "Mauricio Luna",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "express": "^4.17.1",
@@ -17,7 +19,8 @@
     "method-override": "^3.0.0",
     "mongoose": "^5.9.18",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

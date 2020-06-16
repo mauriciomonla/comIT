@@ -26,3 +26,26 @@ En las vistas usamos
 bootstrap
 https://getbootstrap.com/
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+Colores
+https://uigradients.com/#Dawn
+
+Imagenes:
+https://www.infobae.com/2015/11/13/1769482-los-15-mejores-estadios-futbol-del-mundo/
+
+Foros
+https://es.stackoverflow.com/questions/31753/enviar-un-json-por-post-con-javascript
+https://stackoverflow.com/questions/41496571/axios-posts-as-json-object-how-to-change
+https://www.npmjs.com/package/axios
+https://getbootstrap.com/docs/4.0/components/forms/#form-controls
+https://getbootstrap.com/docs/4.0/components/dropdowns/#single-button-dropdowns
+https://getbootstrap.com/docs/4.0/components/alerts/
+https://getbootstrap.com/docs/4.0/content/tables/#striped-rows
+https://fontawesome.com/
+
+comandos mongo
+mongo (activa el cliente mongo)
+use canchas-db-app (abro la base de datos: switched to db canchas-db-app)
+show collections: listar las colecciones de mi base
+db.reservas.find().pretty(): imprimir en consola los documentos
+db.dropDatabase(): elimina los documentos
