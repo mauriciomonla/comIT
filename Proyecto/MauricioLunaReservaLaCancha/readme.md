@@ -6,35 +6,75 @@ _Vos encargate de dominar el esferico, que nosotros os encargamos de cuidarte la
 
 _En ReservaTuCancha te facilitamos la manera en que encuentres el cuadrilatero que mas se acomode a tus necesitades, podes buscar la cancha que mas te guste, reservarla y dejar disfrutar con tus amigos de ese momento_
 
-### Pre-requisitos 📋
+### Home y Nosotros 📋
 
-_Herramientas que utilizamos para desarrollar la aplicacion_
-
-```
-Da un ejemplo
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_HOME: En esta seccion describimos brevemente lo que se puede hacer con la aplicacion_
 
 ```
-Da un ejemplo
+Busca la cancha que te quede mas cerca! podes reservarla YA!.
+Sos muy pro? utiliza nuestros filtros de busqueda para elegir el suelo que mas se adapte a vos.
+Te gusta el asado? Busca en nuestra lista las canchas con PARRILLA!!! mientras convertis goles se encienden las brasas!
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+_NOSOTROS: Presentacion del desarrollador y link hacia la pagina de Comunidad IT_
 
 ```
-Da un ejemplo
+Soy un desarrollador junior que esta incursionando en el mundo del desarrollo Web.
+Esta aplicacion se hizo gracias al curso brindado por comunidad IT.
 ```
+
+### Lista de canchas ⚙️
+
+_En esta seccion podes encontrar todas las canchas registradas en nuestro sitio. Cada cancha posee un nombre y una series de caracteristicas que la describen. Dichas caracteristias pueden ser aplcadas en nuestros filtros, para fecilitar la busqueda de la cancha que mas se acerque a tus necesidades_
+
+- Filtrar por Barrio
+
+```
+Villa Crespo
+Palermo
+Almagro
+Belgrano
+Entre otros...
+```
+
+- Filtrar por Suelo
+
+```
+Pasto
+Cemento
+Sintetico
+```
+
+- Filtrar por Parrilla
+
+```
+Con parri
+Sin parri
+```
+
+### Reservar un cancha 🔩
+
+_Para poder reservar una cancha lo podes hacer desde el boton de navecgacion "Rservar" o tambien es posible hacerlo desde la lista de canchas disponibles_
+_Una vez acá, te aparecerá un formulario para completar los datos de la reserva_
+
+- Nombre: Nombre del titular de la reserva
+- Telefono: Necesario para contactar al cliente
+- Cacha: Nombre de la cancha elejida para jugar
+- Dia: Dia para realizar la reserva
+- Hora: Horario del encuentro
+- Comentario: Podes dejaralguna sugerencia o alguna peticion especial para tu reserva
+
+### Ver las reservas realizadas 📋
+
+_Desde el boton "Ver reservas" podes consultar y gestionar las reservas que realizaste_
+
+- En esta seccion veras el listado de las reservas realizadas, desde acá podes eliminar la que desees
+
+### Eliminar una reserv## ⌨️
+
+_A veces e complica para poder asistir a un juego, en este caso, podes eliminar la reserva que realizaste_
+
+- Busca la reserva que queres descartar y dale click al boton ELIMINAR, esto borrara la reserva de tu lista de reservas
 
 ## Despliegue 📦
 
@@ -45,12 +85,17 @@ git init
 git clone https://github.com/mauriciomonla/comIT.git
 ```
 
-### Instalación 🔧
+## Instalación 🔧
 
-_Para instalar el proyecto_
+_Para iniciar un proyecto node_
 
 ```
 npm init
+```
+
+_Para instalar los modulos node_
+
+```
 npm i express
 npm i express-handlebars
 npm i method-override
@@ -61,6 +106,46 @@ _Para ejecutar el proyecto_
 
 ```
 npm run dev
+```
+
+## Comandos ejecutados en la DB 📋
+
+_Comandos mongo_
+
+- Iniciar mongo
+
+```
+mongod
+```
+
+- Activar el cliente mongo
+
+```
+mongo
+```
+
+- Abrir la base de datos. switched to db canchas-db-app
+
+```
+use canchas-db-app
+```
+
+- Listar las colecciones de mi base
+
+```
+show collections
+```
+
+- Imprimir en consola los documentos
+
+```
+db.reservas.find().pretty()
+```
+
+- Elimina los documentos
+
+```
+db.dropDatabase()
 ```
 
 ## Construido con 🛠️
@@ -77,7 +162,7 @@ _Las tecnologias que se utilizaron para crear el proyecto_
   aplicaciones
 - [bootstrap](https://getbootstrap.com/) - Estilado de componentes
 
-### IDEs 📋
+## IDEs 📋
 
 _Las herramientas que se utilizaron para crear el proyecto:_
 
@@ -85,15 +170,15 @@ _Las herramientas que se utilizaron para crear el proyecto:_
 
 ## Archivos 🖇️
 
-index.js: archivo principal de toda la aplicacion
-database.js: archivo principal para conectar con una base de datos
+- index.js: archivo principal de toda la aplicacion
+- database.js: archivo principal para conectar con una base de datos
 
 ## Carpetas 🖇️
 
-*models: Se define como van a lucir los datos que queremos almacenar dentro de mongo. En nuestro caso, los datos de las canchas y de las reservas.
-*public: insertar todos los archivos estaticos. Imagenes, fuentes, css y cualquier otro archivos que queramos enviar al servidor para que se pinte en pantalla
-*routes: sirve para crear las URLs o las rutas de nuestro servidor
-*view: almacena todos los archivos que enviaremos al navegador, es decir todas las vistas HTML
+- \*models: Se define como van a lucir los datos que queremos almacenar dentro de mongo. En nuestro caso, los datos de las canchas y de las reservas.
+- \*public: insertar todos los archivos estaticos. Imagenes, fuentes, css y cualquier otro archivos que queramos enviar al servidor para que se pinte en pantalla
+- \*routes: sirve para crear las URLs o las rutas de nuestro servidor
+- \*view: almacena todos los archivos que enviaremos al navegador, es decir todas las vistas HTML
 
 ## Wiki 📖
 
