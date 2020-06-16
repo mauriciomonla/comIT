@@ -203,7 +203,7 @@ Usamos [GIT](https://git-scm.com/) para el versionado. Para todas las versiones 
 - **Mauricio Luna** - _Trabajo Inicial_ - [mauriciomonla](https://github.com/mauriciomonla)
 - **Mauricio Luna** - _Documentación_ - [mauriciomonla](https://github.com/mauriciomonla)
 
-También puedes mirar la lista del [contribuyentes COM IT](https://github.com/mauriciomonla/comit-node-web-apps) quíenes hicieron posible este proyecto.
+También puedes mirar la perfil del [contribuyentes COM IT](https://github.com/rsegretin/comit-node-web-apps) quíenes hicieron posible la realizacion de este proyecto.
 
 ## Licencia 📄
 
