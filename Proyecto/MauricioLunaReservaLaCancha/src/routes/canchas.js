@@ -95,8 +95,10 @@ router.get("/canchas", async (req, res) => {
       const contexto = {
         reservas: documentos.map((documento) => {
           return {
+            nombreCliente: documento.nombreCliente,
             nombreCancha: documento.nombreCancha,
             fecha: documento.fecha,
+            hora: documento.hora,
             comentario: documento.comentario,
           };
         }),
@@ -502,6 +504,10 @@ router.get("/canchasInsertarListado", (req, res) => {
   });
   res.send("Insert OK");
   //};////ELIMINAR HASTA ACAAAAAAAAAAA
+});
+
+router.get("/canchas/listaCanchas", (req, res) => {
+  res.render("canchas/listaCanchas");
 });
 
 module.exports = router;
