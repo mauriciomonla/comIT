@@ -100,6 +100,7 @@ router.get("/canchas", async (req, res) => {
             fecha: documento.fecha,
             hora: documento.hora,
             comentario: documento.comentario,
+            _id: documento._id
           };
         }),
       };
@@ -508,6 +509,13 @@ router.get("/canchasInsertarListado", (req, res) => {
 
 router.get("/canchas/listaCanchas", (req, res) => {
   res.render("canchas/listaCanchas");
+});
+
+router.post("/canchas/eliminar/:id", async(req, res) => {
+  console.log(req.params.id);
+  await Reserva.findByIdAndDelete(req.params.id);
+  //res.send("OK delete");
+  res.redirect("/canchas");
 });
 
 module.exports = router;

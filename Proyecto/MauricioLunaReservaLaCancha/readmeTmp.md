@@ -43,6 +43,7 @@ https://getbootstrap.com/docs/4.0/components/alerts/
 https://getbootstrap.com/docs/4.0/content/tables/#striped-rows
 https://fontawesome.com/
 https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a
+https://getbootstrap.com/docs/4.5/components/navbar/
 
 comandos mongo
 mongo (activa el cliente mongo)

@@ -1,10 +1,10 @@
-# Título del Proyecto
+# ReservaTuCancha
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Vs encargate de dominar el esferico, que nosotros os encargamos de cuidarte la canchita_
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_En ReservaTuCancha te facilitamos la manera en que encuentres el cuadrilatero que mas se acomode a tus necesitades, podes buscar la cancha que mas te guste, reservarla y dejar disfrutar con tus amigos de ese momento_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -90,11 +90,11 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia "Sanjuaninos en el software"
 
-## Expresiones de Gratitud 🎁
+## GRACIAS! 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* ComunidadIT 📢
+* Profe Richard te debo una cerveza 🍺 por tan grandioso laburo que hiciste con nosotros. 
+* A pesar de la cuarentena se pudo laburar 🤓.
+* Viva la patria!
